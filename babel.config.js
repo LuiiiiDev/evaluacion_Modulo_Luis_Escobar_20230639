@@ -11,6 +11,7 @@ module.exports = function (api) {
                     path: '.env',
                 },
             ],
+            'react-native-reanimated/plugin', // Esta línea es crucial para solucionar useInsertionEffect
         ],
     };
 };
